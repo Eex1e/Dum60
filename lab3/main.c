@@ -177,7 +177,7 @@ int main() {
     printf("busiest time:\nfrom %s", asctime(time));
     temp = period.endtime;
     time = localtime(&temp);
-    printf(" to %s", asctime(time));
+    printf(" to %s", asctime(time))
     printf("number of requests with error 5xx: %d", counter);
     return 0;
 }
